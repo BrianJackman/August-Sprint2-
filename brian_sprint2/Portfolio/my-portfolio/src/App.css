@@ -1,0 +1,58 @@
+/* 
+Sprint 2
+By: Brian Jackman
+2024/08/12
+*/
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+}
+
+
+.App-header {
+  background-color: #282c34;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.box {
+  width: 756px;
+  height: 580px;
+  background-color: white; 
+  background-color: rgba(2, 59, 101, 0.5);
+
+  
+}
+
+.bottombox {
+  width: 756px;
+  background-color: black; 
+  margin: 20px ; 
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  text-align: center;
+}
+
+.bottombox img {
+  border-radius: 50%;
+}
+
+.component {
+  margin: 20px;
+}
+
+.box:not(:last-child) {
+  margin-bottom: 20px;
+}
